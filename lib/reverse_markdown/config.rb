@@ -7,6 +7,7 @@ module ReverseMarkdown
       @github_flavored  = false
       @force_encoding   = false
       @em_delimiter     = '_'.freeze
+      @u_delimiter     = '__'.freeze
       @strong_delimiter = '**'.freeze
       @inline_options   = {}
       @tag_border       = ' '.freeze
